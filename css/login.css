@@ -1,0 +1,26 @@
+
+.form-login-a{
+    color: var(--hospital-green);
+    text-decoration: none;
+    font-size: var(--sm);
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 3.25rem;
+}
+
+.input-email{
+    margin-bottom: 1.5rem;
+}
+
+.secondary-button{
+    height: 3.5rem;
+    background-color: var(--white);
+    border: 2px solid var(--hospital-green);
+    border-radius: 0.5rem;;
+    color: var(--hospital-green);
+    width: 100%;
+    cursor: pointer;
+    font-size: var(--md);
+    font-weight: bold;
+
+}
