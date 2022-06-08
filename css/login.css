@@ -1,3 +1,6 @@
+.form-login{
+    height: auto;
+}
 
 .form-login-a{
     color: var(--hospital-green);
@@ -22,5 +25,5 @@
     cursor: pointer;
     font-size: var(--md);
     font-weight: bold;
-
+    margin-top: 5rem;
 }

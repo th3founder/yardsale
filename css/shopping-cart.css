@@ -1,0 +1,35 @@
+.product-detail .my-order-container{
+    width: 100%;
+}
+
+.product-detail .my-order-container .my-order-content{
+    margin: 0 1rem;
+}
+
+.product-detail .order{
+    padding: 1rem;
+}
+
+.product-detail .shopping-cart{
+    grid-template-columns: auto 1fr auto auto;
+}
+
+.product-detail .shopping-cart > img:hover{
+    cursor: pointer;
+}
+
+.my-orderNav{
+    height: 3rem;
+    border-bottom: 1px solid var(--very-light-pink);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+.my-orderNav .title{
+    margin-bottom: 0;
+}
+.my-orderNav img{
+    position: absolute;
+    left: 1rem;
+}

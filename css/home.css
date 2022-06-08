@@ -1,0 +1,42 @@
+.cards-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 8.75rem);
+    gap: 1.5rem;
+    place-content: center; /* alinea el contenido en el centro, es lugar de margin 0 auto */
+}
+
+.product-car{
+    width: 8.75rem;  
+}
+
+.product-car img{
+    width: 8.75rem;
+    height: 8.75rem;
+    border-radius: 1.5rem;
+    object-fit: cover;
+}
+
+.product-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.75rem;
+}
+
+.product-info div p:nth-child(1){
+    font-weight: bold;
+    font-size: var(--md);
+    margin-bottom: 0.25rem;
+}
+.product-info div p:nth-child(2){
+    font-size: var(--sm);
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    color: var(--very-light-pink);
+}
+
+
+.product-info figure img{
+    width:  2rem;
+    height: 2rem;
+}

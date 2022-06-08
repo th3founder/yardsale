@@ -1,5 +1,8 @@
+.form-email{
+    justify-items: center;
+}
+
 .email-image{
-    align-self: center;
     background-color: var(--text-input-field);
     width: 9rem;
     height: 9rem;

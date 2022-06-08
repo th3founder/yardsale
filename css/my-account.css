@@ -1,0 +1,28 @@
+.acount-container{
+    height: 100%;
+}
+
+.form-MyAccount{
+    height: 100%;
+    justify-content: space-between;
+}
+
+.form-MyAccount .input-email,.input-name,.input-password{
+    margin-bottom: 1.5rem;
+}
+
+.title-account{
+    text-align: start;
+    margin-bottom: 2rem;
+}
+
+.form-MyAccount div{
+    display: flex;
+    flex-direction: column;
+}
+
+.value{
+    color: var(--very-light-pink);
+    font-size: var(--md);
+    margin:0.5rem 0 2rem 0;
+}

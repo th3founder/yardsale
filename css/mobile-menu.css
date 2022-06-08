@@ -1,0 +1,37 @@
+.mobile-menu{
+    padding: 1.5rem;
+}
+
+.mobile-menu ul{
+    list-style: none;
+    margin-top: 1.5rem;
+}
+.mobile-menu ul:nth-child(1){
+    border-bottom: 1px solid var(--very-light-pink);
+}
+.mobile-menu ul:nth-child(3){
+    position: absolute;
+    bottom: 2rem;
+}
+
+.mobile-menu ul li{
+   margin-bottom: 1rem;
+}
+
+.mobile-menu ul li a{
+    color: var(--black);
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+
+.mobile-menu .email{
+    font-size: var(--sm);
+    font-weight: 300;
+}
+
+.mobile-menu .signOut{
+    font-size: var(--sm);
+    color: var(--hospital-green);
+}

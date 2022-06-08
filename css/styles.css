@@ -1,6 +1,16 @@
 @import url('./clase1.css');
 @import url('./email.css');
 @import url('./login.css');
+@import url('./my-account_edit.css');
+@import url('./my-account.css');
+@import url('./home.css');
+@import url('./desktop-menu.css');
+@import url('./mobile-menu.css');
+@import url('./my-order.css');
+@import url('./my-orders.css');
+@import url('./navbar.css');
+@import url('./product-details.css');
+@import url('./shopping-cart.css');
 *{
     box-sizing: border-box;
     margin: 0;
@@ -25,12 +35,62 @@ body{
     .logo{
         display: block;
     }
-    
+    .navbar-left ul{
+        display: none;
+    }
+    .menu{
+        display: block;
+    }
+    .navbar-email{
+        display: none;
+    }
+    .product-detail{
+        width: 100%;
+    }
 }
 
-@media screen and (min-width:600px){
+@media screen and (min-width:660px){
     .logo{
         display: none;
     }
 
+    .secondary-button{
+        margin-top: 0;
+    }
+
+    .my-account{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .form-container{
+        height: auto;
+    }
+    /* home */
+    .cards-container{
+        grid-template-columns: repeat(auto-fill, 15rem);
+    }
+    .product-car{
+        width: 15rem;  
+    }
+    .product-car img{
+        width: 15rem;
+        height: 15rem;
+    }
+    .menu{
+        display: none;
+    }
+    .navbar-left ul{
+        display: flex;
+    }
+    .navbar-email{
+        display: block;
+    }
+    .product-detail{
+        width: 22.5rem;
+    }
+    .my-orderNav img{
+        display: none;
+    }
+    
 }
